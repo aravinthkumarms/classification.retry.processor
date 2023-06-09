@@ -6,8 +6,8 @@ import mysql.connector
 def DB():
     ICEe = mysql.connector.connect(
         host="127.0.0.1",
-        user="svc_ice",
-        password="8251b21b725cf70b",
+        user=PYRODBUserName,
+        password=PYRODBPassword,
         database="ICEe",
         port=3333
     )
